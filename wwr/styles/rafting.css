@@ -102,6 +102,7 @@ article {
     height: auto;
 }
 
+/* Absolute positioning for overlay elements */
 h1 {
     position: absolute;
     top: 20px;
@@ -113,6 +114,16 @@ h1 {
     background-color: var(--accent1-color);
     color: #fff;
     margin: 0;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px;
+    border-radius: 4px;
 }
 
 .hero article img {
